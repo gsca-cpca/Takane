@@ -1,0 +1,34 @@
+A description of Rodgers and Young (1981) data:
+
+One hundred subjects rank-ordered 18 family types according to their preference. The data have been converted into "anti-preference" data by sutracting the original preference data from 19, and then centering within each subject (rowwise centering). The 18 family types are as follows:
+
+1. No children
+2. One boy
+3. One girl
+4. Two boys
+5. Two girls
+6. A boy then a girl
+7. A girl then a boy
+8. Three boys
+9. Three girls
+10. A boy then two girls
+11. A girl then a boy then a girl
+12. Two girls then a boy
+13. A girl then two boys
+14. A boy then a girl then a boy
+15. Two boys then a girl
+16. Four or more, equal boys and girls
+17. Four or more, more boys than girls
+18. Four or more, more girls than boys
+
+Source: Rodgers, J. L., and Young, F. W. (1981). Successive unfolding of family preferences. Applied Psychological Measurement, 5, 51-62.
+
+
+The right-hand side constraint matrix H is my own creation. There are 5 constraints, defined as follows:
+
+1. Equal boys and girls, or not. (There are 4 cases in the former category, and 14 cases in the latter category, and a contrast vector was constructed to capture the difference between the two.)
+2. More boys, or more girls. (Out of 14 cases with unequal numbers of boys and girls, 7 cases falls into the category of more boys, while 7 others into more gilrs. This contrast captures the difference between these two categories.)
+3. The total number of children at most 2, or exactly 3. (There are 7 cases falling into the first category, while 8 cases into the second. This contrast takes the difference between these two categories.)
+4. The total number of children at most 3, or larger than 3. (There are 15 cases falling into the first category, while 3 cases into the second. This contrast takes the difference between the these two categories.)
+5. Children of one gender (only boys or only girls), or of mixed gender. (There are 9 cases falling into the former category, and 9 cases into the latter. This contrast takes the difference between the two categories.)  
+ 

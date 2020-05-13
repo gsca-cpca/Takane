@@ -1,0 +1,10 @@
+A description of Nishisato's item-cateory data:
+
+Twenty three subjects responded to four items each consisting of three response categories. The resultant data are a 23 by 4 item-category data set with 23 rows and 4 columns. (The item-category data are converted into a set of dummy variable matrices before the analysis is made.) The four items and three response categories each are as follows:
+
+1. Your age? (1=20 to 29, 2=30 to 39, 3=over 40).
+2. Children these days are not as well disciplined as children when you were a child. (1=Agree, 2=Can't agree, 3=Can't say which).
+3. Children today are not as happy as children when you were a child. (1=Aree, 2=Can't agree, 3=Can't say which).
+4. Religion should be taught at school. (1=Agree, 2=Can't agree, 3=Don't care).
+
+Source: Nishisato, S. (1994). Elements of dual scaling: An introduction to practical data analysis. Hillsdale, NJ: Earlbaum Associates.
